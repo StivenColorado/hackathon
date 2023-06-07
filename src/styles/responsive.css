@@ -1,0 +1,663 @@
+@media(min-height:920px) {
+
+    .phamphlet-container,
+    .prizes-container,
+    .goal-container,
+    .sponsor-container,
+    .date-container,
+    .form-container {
+        height: 85vh;
+    }
+
+    /*pantallas grandes*/
+    .menu a {
+        font-size: 1.3em;
+    }
+
+    .header-article {
+        font-size: 2em;
+    }
+
+    .phamplet-description {
+        font-size: 2em;
+    }
+
+    .enrollment-button {
+        font-size: 1.7em;
+        height: 2.7em;
+    }
+
+    .title-goal {
+        font-size: 2em;
+    }
+
+    .goal-description {
+        font-size: 2em;
+    }
+
+    .title-prizes {
+        font-size: 1.5em;
+    }
+
+    .description-prizes {
+        font-size: 1.5em;
+    }
+
+    .btn-show-prizes {
+        font-size: 1.4em;
+    }
+
+    form label,
+    form textarea,
+    form label {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:1050px) {
+    .prizes-article {
+        width: 50%;
+    }
+
+    .target-prize-content {
+        min-height: 44%;
+    }
+
+    .target-sponsor {
+        width: 30%;
+    }
+
+    .form {
+        width: 46%;
+    }
+
+    .phamplet-title {
+        font-size: 1.4em;
+    }
+
+    .phamplet-description {
+        font-size: 1em;
+    }
+
+    .menu a {
+        font-size: .8em;
+    }
+}
+
+@media (max-width:950px) {
+    form {
+        width: 60%;
+    }
+
+    .img-form-container {
+        width: 43%;
+        display: none;
+    }
+
+    .icon-sponsors {
+        margin-left: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .target-sponsor {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:880px) {
+
+    .image-pamphlet {
+        width: 40%;
+        object-fit: cover;
+    }
+
+    .phamphlet-container,
+    .goal-container,
+    .date-container,
+    .form-container {
+        width: 95%;
+        left: -2%;
+    }
+    .sponsor-container{
+        left: -4%;
+    }
+
+    .date-container {
+        height: 80vh;
+    }
+
+    .title-goal {
+        width: 100%;
+    }
+
+    .goal-description {
+        width: 90%;
+    }
+
+    .timeline {
+        width: 100%;
+    }
+
+    .prizes-article {
+        width: 70%;
+    }
+
+    .details,
+    .location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        font-size: .8em;
+    }
+}
+
+@media (max-width:780px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        z-index: 10;
+    }
+
+    .openNavbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .closeNavbar.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+
+    }
+
+}
+
+@media (max-width:740px) {
+    .timeline {
+        width: 100%;
+    }
+
+    .point-content p {
+        font-size: 12px;
+    }
+
+    .title-goal {
+        width: 90%;
+    }
+
+    .prizes-article {
+        width: 70%;
+    }
+
+    .target-prize-content {
+        justify-content: flex-start;
+        padding-top: 2%;
+        width: 24%;
+        margin-left: 10px;
+        max-height: 45%;
+    }
+
+    .target-prize-content::before {
+        height: 46%;
+    }
+
+    .description-target-prize {
+        font-size: 10px;
+    }
+
+    .close-targets-prizes {
+        width: 8%;
+        background-size: 40%;
+    }
+
+    .close-targets-prizes:hover {
+        background-size: 35%;
+    }
+
+    .title-date {
+        height: 15%;
+    }
+
+    .box-text {
+        min-height: 2%;
+    }
+
+    .details,
+    .location {
+        width: 50%;
+    }
+
+    .details>ul {
+        width: 95%;
+    }
+
+    .place-text::after {
+        margin-left: 6px;
+    }
+
+    .box-info-numbers {
+        width: 20%;
+    }
+}
+
+@media (max-width:690px) {
+    .enrollment-button {
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .phamplet-description {
+        width: 100%;
+    }
+
+    .phamplet-title {
+        width: 100%;
+    }
+
+    .icon-header-article {
+        margin: 15px;
+    }
+
+    .container-logo-button {
+        width: 32%;
+    }
+}
+
+@media (max-width:690px) {
+    .phamphlet-container {
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pamphlet-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        height: 70%;
+    }
+
+    .image-pamphlet {
+        width: 80%;
+        height: 30%;
+    }
+
+    .prizes-container {
+        height: 100vh;
+    }
+
+    .prizes-article {
+        width: 100%;
+        background-color: var(--lightGreenTransparency);
+    }
+
+    .target-prize-content {
+        min-height: 38%;
+        width: 30%;
+    }
+
+    .target-prize-content::before {
+        height: 41%;
+        width: 22;
+    }
+
+    .target-sponsor {
+        width: 32%;
+        background-size: 75%;
+    }
+
+    .date-container {
+        height: 160vh;
+    }
+
+    .details-info-container {
+        flex-direction: column-reverse;
+    }
+
+    .details,
+    .location {
+        width: 90%;
+        height: 50%;
+    }
+
+    .box-text {
+        min-height: 5%;
+    }
+
+    .form-container {
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+
+    .form-container,
+    form {
+        
+        width: 90%;
+    }
+
+    .img-form-container {
+        width: 100%;
+        border-radius: .5rem;
+    }
+
+    .team-taxis-libres {
+        width: 100%;
+        border-radius: .5rem;
+        height: 100%;
+    }
+
+    .description-img {
+        width: 100%;
+    }
+
+    .footer-icon {
+        width: 8%;
+    }
+
+    .prizes-container {
+        height: 110vh;
+    }
+
+    .target-prize-content {
+        min-height: 31%;
+    }
+
+    .section1-footer>li {
+        min-width: 28%;
+        font-size: 12px;
+    }
+
+    .prizes-container {
+        height: 110vh;
+    }
+
+    .target-prize-content {
+        min-height: 31%;
+    }
+}
+
+@media (max-width:550px) {
+
+    .sponsor-container {
+        height: 140vh;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .date-container,
+    .sponsor-container,
+    .form-container {
+        left: -5%;
+    }
+    .phamphlet-container,
+    .goal-container,
+    .prizes-container
+    {
+        left: -5%;
+    }
+    .header-sponsor{
+        margin: 0;
+    }
+    .target-sponsor {
+        width: 45%;
+        height: 30%;
+    }
+
+    .place-text::after {
+        display: none;
+    }
+
+    .box-info-numbers {
+        width: 35%;
+    }
+
+    .target-sponsor {
+        height: 25%;
+    }
+
+    .sponsor-container {
+        height: 90vh;
+    }
+
+    .title-details {
+        width: 95%;
+    }
+
+    .form-container,
+    form {
+        width: 98%;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        height: 9%;
+    }
+
+    .menu-mobile.active {
+        width: 60%;
+    }
+
+    .navbar {
+        left: -5%;
+    }
+
+    .container-logo-button {
+        width: 45%;
+    }
+}
+
+@media (max-width:490px) {
+    .point-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .point {
+        flex: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .timeline {
+        width: 90%;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-logo-button {
+        width: 50%;
+    }
+
+    .pamphlet-article {
+        width: 90%;
+    }
+
+    .header-article {
+        height: 25%;
+    }
+
+    .enrollment-button {
+        height: 20%;
+    }
+
+    .goal-container {
+        left: -5%;
+        height: 80vh;
+        width: 95%;
+    }
+
+    .goal-description {
+        width: 90%;
+    }
+
+    .point-content h3 {
+        font-size: 15px;
+    }
+
+    .timeline::before {
+        top: -12%;
+    }
+
+    .form-container,
+    form {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        left: -5%;
+    }
+
+    .footer-icon {
+        width: 10%;
+    }
+
+    .target-prize-content {
+        flex-direction: column;
+        flex: 1 1 1 1;
+        width: 40%;
+    }
+
+    .prizes-container {
+        height: 110vh;
+    }
+
+    .target-prize-content {
+        min-height: 31%;
+    }
+
+    .title-target-prize {
+        font-size: 10px;
+    }
+
+    .description-target-prize {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .target-prize-content::before {
+        height: 32%;
+    }
+}
+
+@media (max-width:460px) {
+    .title-date {
+        height: 12%;
+    }
+
+    .title-date>h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .box-info-numbers {
+        max-width: 40%;
+    }
+
+    .place-date-container {
+        font-size: 12px;
+    }
+
+    .targets-prizes {
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width:420px) {
+    .phamplet-title {
+        height: 20%;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .phamplet-description {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    footer {
+        justify-content: space-evenly;
+    }
+
+    .section1-footer {
+        position: relative;
+        height: 20%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1-footer>li {
+        width: 40%;
+        height: 50%;
+    }
+
+}
+
+@media (max-width:390px) {
+
+    form input,
+    form textarea {
+        width: 100%;
+    }
+
+    form label,
+    form textarea,
+    form button,
+    form input {
+        margin-left: 2px;
+    }
+
+    form button {
+        width: 50%;
+    }
+
+    .menu-mobile.active {
+        width: 70%;
+    }
+
+    .title-goal {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .goal-description {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .btn-show-prizes {
+        width: 50%;
+    }
+
+    .title-prizes {
+        width: 90%;
+    }
+
+    .description-prizes {
+        width: 80%;
+    }
+}

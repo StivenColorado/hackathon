@@ -1,0 +1,42 @@
+@keyframes swipe_left {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0;
+        z-index: 7;
+    }
+}
+
+@keyframes swipe_right {
+    from {
+        left: 0;
+        z-index: 7;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+@keyframes open_nav {
+    from {
+        display: none;
+        right: -9999px;
+    }
+
+    to {
+        display: flex;
+        right: 0;
+    }
+}
+
+@keyframes close_nav {
+    from {
+        display: flex;
+        right: 0;
+    }
+    to {
+        right: -9999px;
+    }
+}

@@ -1,0 +1,65 @@
+    .menu-mobile{
+        display: none;
+        position: fixed;
+        top:0;
+        right:  -9999px;
+        width: 50%;
+        height: 100vh;
+        float: right;
+        background-color: var(--blueColor);
+        border-left: solid 1px white; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu-mobile.active{
+        display: flex;
+        animation: open_nav .4s alternate forwards ease;
+    }
+    .menu-mobile.desactive{
+        animation: close_nav 3s alternate forwards ease;
+    }
+    .navbar{
+        height: 10vh;
+    }
+    .section-navMobile{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .icon-navMobile{
+        width: 25%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60%;
+        background-color: pink;
+        filter: invert(1);
+    }
+    .text-navMobile{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color:var(--whiteColorText);
+    }
+    .section-navMobile > .__1{
+        background-image: url('../assets/icon-navbar/meta.png');
+    }
+    .section-navMobile > .__2{
+        background-image: url('../assets/icon-navbar/premio.png');
+    }
+    .section-navMobile > .__3{
+        background-image: url('../assets/icon-navbar/sponsor.png');
+    }
+    .section-navMobile > .__4{
+        background-image: url('../assets/icon-navbar/fecha.png');
+    }
+    .section-navMobile > .__5{
+        background-image: url('../assets/icon-navbar/inscripcion.png');
+    }

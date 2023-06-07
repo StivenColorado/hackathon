@@ -1,0 +1,87 @@
+footer {
+    width: 90%;
+    height: 40vh;
+    background-color: var(--blueColor2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section1-footer {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo-footer {
+    height: 100%;
+    width: 18%;
+    background-image: url('../assets/logo-taxislibres.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+  
+  .section1-footer > li {
+    height: 100%;
+    width: auto;
+    min-width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section1-footer > li > a {
+    color: var(--whiteColorText);
+  }
+  
+  .section-icons-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+  }
+  
+  .footer-icon {
+    height: 100%;
+    width: 4%;
+    margin-left: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+  
+  .section-icons-footer > .__1 {
+    background-image: url('../assets/icon-facebook.png');
+  }
+  
+  .section-icons-footer > .__2 {
+    background-image: url('../assets/icon-instagram.png');
+  }
+  
+  .section-icons-footer > .__3 {
+    background-image: url('../assets/icon-linkedin.png');
+  }
+  
+  .section-icons-footer > .__4 {
+    background-image: url('../assets/icon-twitter.png');
+  }
+  
+  .section-icons-footer > .__5 {
+    background-image: url('../assets/icon-youtube.png');
+  }
+  
+  .copyriht-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--whiteColorText);
+  }
+  

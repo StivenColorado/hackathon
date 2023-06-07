@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Geologica', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.App {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: var(--blueColor);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+body {
+  transition: .3s;
+  --blueColor: white;
+  --blueColor2: rgb(67, 177, 67);
+  --whiteColorText: black;
+  --lightGreen: rgb(67, 177, 67);
+  --lightGreenTransparency: rgba(67, 177, 67, 0.555);
+  --lightGreen2: rgba(126, 218, 126, 0.596);
+  --blackColorText: white;
+  --colorPurple: white;
+}
+
+
+/* Estilos para el modo nocturno */
+.theme-dark {
+  --blueColor: #0f0633;
+  --blueColor2: #0f0633;
+  --whiteColorText: white;
+  --blackColorText: black;
+  --lightGreen: rgb(67, 177, 67);
+  --lightGreenTransparency: rgba(37, 170, 37, 0.849);
+  --lightGreen2: rgba(200, 158, 228, 0.774);
+  --colorPurple: rgba(209, 84, 209, 0.521);
+}
+
+/* Estilos para el modo claro */
+.theme-light {
+  --blueColor: white;
+  --blueColor2: rgb(67, 177, 67);
+  --whiteColorText: black;
+  --lightGreen: rgb(67, 177, 67);
+  --lightGreenTransparency: rgba(67, 177, 67, 0.555);
+  --lightGreen2: rgba(126, 218, 126, 0.596);
+  --blackColorText: white;
+  --colorPurple: white;
+}
